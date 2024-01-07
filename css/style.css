@@ -79,7 +79,7 @@ body img {
 
 a {
   text-decoration: none;
-  color: #ffb31a;
+  color: #000;
   -webkit-transition: color 0.1s ease-in-out;
   -moz-transition: color 0.1s ease-in-out;
   -ms-transition: color 0.1s ease-in-out;
@@ -2601,7 +2601,7 @@ img.mfp-img {
 }
 
 .testimonial__text {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   margin-bottom: 36px;
   display: inline-block;
@@ -6438,6 +6438,7 @@ dd {
 
 .about_para h3{
   margin-top: 30px;
+  font-size: 20px;
 }
 
 .about_para h2{
@@ -6451,4 +6452,13 @@ dd {
 .contactus{
   color: white;
   margin-bottom: 30px;
+}
+
+.contactusPage .contactus {
+  color: black;
+}
+.contactusPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
