@@ -2,12 +2,17 @@ $(document).ready(function() {
   // Get the current URL path
   var currentPath = window.location.pathname;
 
+  // Normalize paths for comparison
+  function normalizePath(path) {
+    return path.replace(/\/$/, ""); // Remove trailing slash
+  }
+
   // Add 'active' class to the corresponding link
   $('.nav__dropdown a').each(function() {
-    var linkPath = $(this).attr('href');
+    var linkPath = normalizePath($(this).attr('href'));
 
-    // Compare current path with link path
-    if (currentPath === linkPath) {
+    // Compare normalized current path with normalized link path
+    if (normalizePath(currentPath) === linkPath) {
       $(this).parent().addClass('active');
     }
   });

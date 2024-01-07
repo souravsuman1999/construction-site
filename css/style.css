@@ -529,7 +529,9 @@ address {
 }
 
 .btn--color {
-  background-color: #ffb31a;
+  background-color: white;
+  color: black;
+
 }
 
 .btn--color:hover {
@@ -3106,14 +3108,14 @@ a.cc-btn.cc-dismiss:hover, a.cc-btn.cc-dismiss:focus {
   position: relative;
   padding: 0 12px;
   color: #868686;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 
 .masonry-filter a.active, .masonry-filter a:hover {
-  color: #ffb31a;
+  color: #000;
 }
 
 .masonry-filter a.active:after, .masonry-filter a:hover:after {
@@ -3123,7 +3125,7 @@ a.cc-btn.cc-dismiss:hover, a.cc-btn.cc-dismiss:focus {
   left: 50%;
   height: 1px;
   width: 28px;
-  background-color: #ffb31a;
+  background-color: #000;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -5058,7 +5060,7 @@ iframe {
 }
 
 .footer__widgets a:hover {
-  color: #ffb31a;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -6440,4 +6442,13 @@ dd {
 
 .about_para h2{
   text-align: center;
+}
+
+.contactusWrap p{
+  color: #868686;
+  font-size: 16px;
+}
+.contactus{
+  color: white;
+  margin-bottom: 30px;
 }
