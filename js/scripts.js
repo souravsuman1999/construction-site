@@ -1,3 +1,22 @@
+$(document).ready(function() {
+  // Get the current URL path
+  var currentPath = window.location.pathname;
+
+  // Add 'active' class to the corresponding link
+  $('.nav__dropdown a').each(function() {
+    var linkPath = $(this).attr('href');
+
+    // Compare current path with link path
+    if (currentPath === linkPath) {
+      $(this).parent().addClass('active');
+    }
+  });
+});
+
+
+
+
+
 (function($){
   "use strict";
 
@@ -323,3 +342,8 @@
   });
 
 })(jQuery);
+
+
+
+//header
+

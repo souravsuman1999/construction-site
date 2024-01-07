@@ -188,7 +188,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 h3, .h3 {
@@ -200,7 +200,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h6, .h6 {
@@ -323,7 +323,7 @@ blockquote cite {
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -337,7 +337,7 @@ address {
 /* Grid
 /*-------------------------------------------------------*/
 .section-wrap {
-  padding: 120px 0;
+  padding: 80px 0;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -2474,6 +2474,9 @@ img.mfp-img {
   background-color: #fff;
   padding: 40px 30px;
 }
+.service-1__info p{
+  font-size: 15px;
+}
 
 .service-1__features {
   list-style: none;
@@ -3692,7 +3695,7 @@ a.cc-btn.cc-dismiss:hover, a.cc-btn.cc-dismiss:focus {
 .entry__article > ul,
 .entry__article > ol {
   margin-bottom: 34px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -3932,7 +3935,7 @@ figcaption {
 .nav__menu > li > a {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
-  color: #222222;
+  color: grey;
   font-size: 15px;
   padding: 0 17px;
   line-height: 95px;
@@ -3941,11 +3944,11 @@ figcaption {
 }
 
 .nav__menu > li > a:hover {
-  color: #ffb31a;
+  color: #000;
 }
 
 .nav__menu > .active > a {
-  color: #ffb31a;
+  color: #000;
 }
 
 @media only screen and (min-width: 992px) {
