@@ -4154,7 +4154,7 @@ header .flex-parent {
 
 .nav__icon-toggle:focus .nav__icon-toggle-bar,
 .nav__icon-toggle:hover .nav__icon-toggle-bar {
-  background-color: #ffb31a;
+  background-color: grey;
 }
 
 .nav__icon-toggle:focus {

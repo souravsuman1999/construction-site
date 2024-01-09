@@ -130,9 +130,7 @@ $(document).ready(function() {
       $('.nav__dropdown-menu').addClass('hide-dropdown');
     });
 
-    $('.nav__dropdown').on('click', '> a', function(e) {
-      e.preventDefault();
-    });
+   
 
     $('.nav__dropdown').on('click',function(e) {
       e.stopPropagation();
