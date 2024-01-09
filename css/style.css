@@ -2616,6 +2616,9 @@ img.mfp-img {
   font-family: sans-serif;
   height: 50px;
 }
+.google-Map iframe{ 
+  width: 100%;
+}
 
 /*-------------------------------------------------------*/
 /* Partners
